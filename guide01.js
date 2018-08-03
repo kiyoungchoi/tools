@@ -26,3 +26,8 @@ $('#someDiv').on('ifToggled', function(event){
 // 방식으로 코드를 만들어서, 작동할때마다 다른 변수로 작동을 기록할 수 있다.
 $('#someDiv').val().substr(0,7)
 // 처럼 활용 할수 있다. substr(시작, 길이)을 잘 활용하자.
+
+// 재직중일땐, icheck('check')로 만들고, 
+var end_value = 'some date';
+$('#theEndDateDiv').hide();
+// 처럼 가짜값으로 넣어서 값인식만 하도록 넣어 두었다. 
